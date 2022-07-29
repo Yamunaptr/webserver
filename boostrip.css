@@ -1,0 +1,59 @@
+.text-center{
+	text-shadow: 2px 2px 2px indianred;
+}
+@font-face{
+	font-family: kuchbi;
+	src: url('Mega Brush');
+}
+.text-center{
+	font-family: kuchbi;
+}
+.batman-contact{
+	height: 75%;
+	 width: 100%; 
+	background: red;
+	 position: relative;
+}
+.batman-contact img{
+	width: 140px; height: 120px;
+	position: absolute;
+	right: 0; top: -30px;
+	animation-name: bat-manbhag;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@keyframes bat-manbhag{
+	from{ right:0;}
+	to{ right: 85%; }
+}
+.container img{
+	width: 45px;
+	height: 45px;
+	transition-property: width,height;
+	transition-duration: 2s;
+	transition-timing-function: ease-in-out;
+}
+
+.love_class:hover{
+	width: 100px;height: 100px;
+}
+.about_para{
+	columns: 3;
+	grid-column-gap: 50px;
+	column-rule: dashed;
+	text-align: justify;
+	column-rule-color: indianred;
+}
+.img-fluid{
+	border-radius: 35px;
+	box-shadow: 4px 4px 5px 5px greenyellow;
+
+}
+.card{
+	box-shadow: 35px;
+}
+.tex_effects: hover{
+     transform: rotate(180deg);
+
+}
